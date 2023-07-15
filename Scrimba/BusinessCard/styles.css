@@ -17,6 +17,10 @@ body{
 
 }
 
+li{
+    text-align: left;
+}
+
 .dok{
     width: 200px;
     height: 150px;
@@ -29,11 +33,6 @@ body{
     border: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-}
-
-.pp:hover{
-    border-color: aquamarine;
-    transform: scale(1.2);
 }
 
 .git{
@@ -51,6 +50,11 @@ body{
     animation-iteration-count: 3;
     animation-delay: 1s;
     transition: transform;
+}
+
+.pp:hover{
+    border-color: aquamarine;
+    transform: scale(1.2);
 }
 
 li:hover{
