@@ -1,0 +1,66 @@
+body{
+    margin-top: 10px;
+}
+
+.list{
+    text-align: start;
+}
+
+.frame{
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 10px auto 0px auto ; 
+    background: #08B8AF;
+    border-bottom: 6px solid red;
+    padding: 20px;
+
+}
+
+.dok{
+    width: 200px;
+    height: 150px;
+    justify-content: center;
+    
+}
+
+.txt{
+    text-align: center;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.pp:hover{
+    border-color: aquamarine;
+    transform: scale(1.2);
+}
+
+.git{
+    color: #B80C09;
+    font-weight: bold;
+}
+
+
+.pp{
+    height: 150px;
+    border-radius: 24px;
+    border: 2px solid black;
+    animation-name: shine;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+    transition: transform;
+}
+
+li:hover{
+    background-color: #802392;
+}
+
+@keyframes shine{
+    0%   {border-color: orangered;}
+    25%  {border-color: red;}
+    50%  {border-color: blue;}
+    100% {border-color: orangered;}
+}
+
