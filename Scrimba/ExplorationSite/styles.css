@@ -1,0 +1,48 @@
+body{
+    color: #82a5ca;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    background-image: url("./img/giphy.gif");
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;/*enable with the three last commands to center all items*/
+}
+
+button{
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: inherit;
+    font-weight: 800;
+    font-style:normal;
+}
+
+.under{
+    border-bottom: 4px solid cornsilk;
+}
+
+#logo{
+    padding: 10px 0px;
+    width: 300px;
+    height: auto;
+}
+h3{
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#link{
+    font-family: inherit;
+    font-size: larger;
+    font-style: oblique;
+}
+
+.shadow{
+    text-shadow: -2px -2px 2px black;/* horizontal deplacement to the right, vertical deplacement to the bottom, blurred aspect (can be ignored),color*/
+}
