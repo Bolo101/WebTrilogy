@@ -1,0 +1,2 @@
+.innerText only returns human readable data. Spaces at the end of the textual content are omitted
+.textContent returns the content of all elements including the hidden elements contrary to .innerText that is aware of styling elements
