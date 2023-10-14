@@ -1,0 +1,39 @@
+body{
+    background-image: url("./img/energy-4030427_1280.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    height: 100vh; /*100% of the window's size*/
+    display: block;
+}
+
+h1{
+    padding-top: 75px;
+}
+
+button{
+    max-width: 100px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    justify-content: center;
+}
+#increment-btn{
+    background-color: green;
+}
+#save-btn{
+    background-color: red;
+}
+
+.button-container{
+    display:block;
+}
+
+#save-el{
+    color: blanchedalmond;
+}
+
+
